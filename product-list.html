@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+    <!--jMobile-->
+    <link rel="stylesheet" href="assets/mobile/jquery.mobile-1.4.5.min.css">
+    <!--<link rel="stylesheet" href="assets/mobile/jqm-demos.css">-->
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <!--<script src="assets/mobile/index.js"></script>-->
+    <script src="assets/mobile/jquery.mobile-1.4.5.min.js"></script>
+    <!--/jMobile-->
+
+
+    <link href="assets/photoswipe/default-skin.css?v=4.1.0-1.0.4" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/photoswipe/default-skin.css?v=4.1.0-1.0.4" type="text/css">
+
+    <script src="assets/photoswipe/photoswipe.min.js?v=4.1.0-1.0.4"></script>
+    <script src="assets/photoswipe/photoswipe-ui-default.min.js?v=4.1.0-1.0.4"></script>
+
+    <!--nivo-->
+    <!--<link rel="stylesheet" href="assets/fancybox/css/jquery.fancybox.css?v=2.1.5" type="text/css">
+    <link rel="stylesheet" href="assets/nivoslide/css/default.css" type="text/css">-->
+    <!--/nivo-->
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="assets/bxslider/jquery.bxslider.css" type="text/css">
+    <script src="assets/bxslider/jquery.bxslider.min.js"></script>
+    <!--<script src="assets/fancybox/js/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script src="assets/fancybox/js/jquery.mousewheel-3.0.6.pack.js"></script>-->
+    <title>s</title>
+</head>
+<body>
+<!--<div data-role="page" class="jqm-demos" id="panel-fixed-page1" style="bottom: 0;">-->
+<div class="header">
+    <div class="container">
+        <div class="icon-customer">
+            <a href="#customer-account">
+                <img src="assets/images/customer-logom.png">
+            </a>
+        </div>
+        <div class="logo-vipm">
+            <a href="index.html">
+                <img src="assets/images/vip-logom.png">
+            </a>
+        </div>
+        <div class="icon-menu">
+            <a href="#nav-panel">
+                <img src="assets/images/menu-iconm.png">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!--<div class="shopping-cart">
+    <a href="#">
+        <img src="assets/images/shopping-cart.png">
+    </a>
+</div>-->
+
+<div class="dir-container">
+
+    <div class="container">
+        <div class="breadcrumb-link" style=""><a href="#"> Home </a> / <a href="#"> women </a> / <a href="#"> agatha</a> / agatha 4388.b3 green</div>
+        <div class="product-list">
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+<div class="newsletter-subscribe-home" id="div-subscribe">
+    <div class="subscribe-slogan">Jangan Lewatkan Promo Brand Terbaik!</div>
+    <form action="#" method="post">
+        <div class="form-subscribe" id="form-subscribe">
+            <input type="text" class="text-input" placeholder="Masukkan email aktif anda">
+        </div>
+        <div class="button-form-subscribe" id="div-button-form-subscribe">
+            <input type="button" class="gn-male gn-btn" value="PRIA">
+            <input type="button" class="gn-female gn-btn" value="WANITA">
+
+            <div class="clearfix"></div>
+        </div>
+    </form>
+</div>
+
+<div class="footer">
+    <div class="guarantee">
+        <center>
+            <ul>
+                <li>
+                    <img src="assets/images/guarantee-1.png"><br>
+                    <span>100%  <br> Keaslian  Produk</span>
+                </li>
+                <li>
+                    <img src="assets/images/guarantee-2.png"><br>
+                    <span>Brand Baru <br> Setiap Hari</span>
+                </li>
+                <li>
+                    <img src="assets/images/guarantee-3.png"><br>
+                    <span>Aman & <br>Terpecaya</span>
+                </li>
+                <li>
+                    <img src="assets/images/guarantee-4.png"><br>
+                    <span>Gratis <br>Pengiriman</span>
+                </li>
+                <li>
+                    <img src="assets/images/guarantee-5.png"><br>
+                    <span>Kualitas & Harga <br>Terbaik</span>
+                </li>
+            </ul>
+        </center>
+    </div>
+    <div class="social-media">
+        <center>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/social-twitter.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/social-facebook.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/social-instagram.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/social-line.png">
+                    </a>
+                </li>
+            </ul>
+        </center>
+    </div>
+    <div class="footer-link">
+        <center>
+            <ul>
+                <li>
+                    <a href="#">Tentang Kami</a>
+                </li>
+                <li>
+                    <a href="#">Kontak Kami</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">Kebijakan</a>
+                </li>
+                <li>
+                    <a href="#">Syarat &amp; Ketentuan</a>
+                </li>
+            </ul>
+        </center>
+    </div>
+    <div class="vip-description">
+        <div class="title">
+            VIP PLAZA, BRANDED FASHION ONLINE <br> DISKON HINGGA 80%!
+        </div>
+        <div class="descriptions">
+            <p>
+                Toko fashion online VIP PLAZA Indonesia adalah pusat belanja online branded fashion terbesar di
+                Indonessia yang menyediakan
+                kebutuhan fashion pria dan fashion wanita dengan menawarkan lebih dari 400 brand-brand fashion terkenal
+                baik lokal maupun internasional
+            </p>
+
+            <p>
+                Kami memberikan diskon produk-produk fashion hingga 80% dalam waktu yang terbatas, Anda dapat menemukan
+                berbagai macam Fashion Sale dengan pilihan gaya sesuai dengan penampilan Anda. <a href="#"> read more
+                > </a>
+            </p>
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; 2015 VIP PLAZA. ALL RIGHTS RESERVED
+    </div>
+</div>
+<div class="back-to-top" id="back-to-top">
+    <img src="assets/images/back-to-top.png">
+</div>
+<div data-role="panel" data-position="right" data-position-fixed="true" data-display="overlay" data-theme="a"
+     class="panel-menu-right" id="nav-panel" style="width: 100%;margin-top:58px;"><!--top:3.8%-->
+<div style="height: 70px;" class="div-button-filter">
+    <div class="button-brand-category btn-shop-by" def="category-m">CATEGORY</div>
+    <div class="button-brand-brand btn-shop-by active" def="brand-m">BRAND</div>
+</div>
+<div style="clear: both;"></div>
+<ul class="category m-right" id="category-m" style="display: none;" data-role="listview">
+    <li>
+        <a href="#">Wanita</a>
+        <div class="category-alternative">
+            <div class="ct"><a href="#panel-fixed-page2">Dress</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Atasan</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Batik</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Muslim</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Bawahan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Dalam</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Jam Tangan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Aksesories</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Olahraga</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Sepatu</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Kecantikan</a></div>
+            <div class="clearfix"></div>
+        </div>
+    </li>
+
+    <li>
+        <a href="#">Pria</a>
+        <div class="category-alternative">
+            <div class="ct"><a href="#panel-fixed-page2">Dress</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Atasan</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Batik</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Muslim</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Bawahan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Dalam</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Jam Tangan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Aksesories</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Olahraga</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Sepatu</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Kecantikan</a></div>
+            <div class="clearfix"></div>
+        </div>
+    </li>
+
+    <li>
+        <a href="#">Anak - Anak</a>
+        <div class="category-alternative">
+            <div class="ct"><a href="#panel-fixed-page2">Dress</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Atasan</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Batik</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Muslim</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Bawahan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Dalam</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Jam Tangan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Aksesories</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Olahraga</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Sepatu</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Kecantikan</a></div>
+            <div class="clearfix"></div>
+        </div>
+    </li>
+
+    <li>
+        <a href="#">Gadget</a>
+        <div class="category-alternative">
+            <div class="ct"><a href="#panel-fixed-page2">Dress</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Atasan</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Batik</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Muslim</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Bawahan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Dalam</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Jam Tangan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Aksesories</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Olahraga</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Sepatu</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Kecantikan</a></div>
+            <div class="clearfix"></div>
+        </div>
+    </li>
+
+    <li>
+        <a href="#">Komputer</a>
+        <div class="category-alternative">
+            <div class="ct"><a href="#panel-fixed-page2">Dress</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Atasan</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Batik</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Muslim</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Bawahan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Dalam</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Jam Tangan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Aksesories</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Olahraga</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Sepatu</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Kecantikan</a></div>
+            <div class="clearfix"></div>
+        </div>
+    </li>
+
+    <li>
+        <a href="#">Home &amp; Living</a>
+        <div class="category-alternative">
+            <div class="ct"><a href="#panel-fixed-page2">Dress</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Atasan</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Batik</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Muslim</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Bawahan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Dalam</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Jam Tangan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Aksesories</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Olahraga</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Sepatu</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Kecantikan</a></div>
+            <div class="clearfix"></div>
+        </div>
+    </li>
+
+    <li>
+        <a href="#">Luxury</a>
+        <div class="category-alternative">
+            <div class="ct"><a href="#panel-fixed-page2">Dress</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Atasan</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Batik</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Muslim</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Bawahan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Pakaian Dalam</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Tas</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Jam Tangan</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Aksesories</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Olahraga</a></div>
+            <div class="ct"><a href="#panel-fixed-page2">Sepatu</a></div>
+            <div class="clearfix"></div>
+            <div class="ct"><a href="#panel-fixed-page2">Kecantikan</a></div>
+            <div class="clearfix"></div>
+        </div>
+    </li>
+
+    <!--<li><a href="#panel-fixed-page2">Dress</a></li>
+    <li><a href="#panel-fixed-page2">Atasan</a></li>
+    <li><a href="#panel-fixed-page2">Batik</a></li>
+    <li><a href="#panel-fixed-page2">Pakaian Muslim</a></li>
+    <li><a href="#panel-fixed-page2">Bawahan</a></li>
+    <li><a href="#panel-fixed-page2">Pakaian Dalam</a></li>
+    <li><a href="#panel-fixed-page2">Tas</a></li>
+    <li><a href="#panel-fixed-page2">Tas</a></li>
+    <li><a href="#panel-fixed-page2">Jam Tangan</a></li>
+    <li><a href="#panel-fixed-page2">Aksesories</a></li>
+    <li><a href="#panel-fixed-page2">Olahraga</a></li>
+    <li><a href="#panel-fixed-page2">Sepatu</a></li>
+    <li><a href="#panel-fixed-page2">Kecantikan</a></li>
+    -->
+</ul>
+<ul class="brand m-right" id="brand-m" data-role="listview">
+    <li class="alphabet-list" style="">
+        <ul id="alpha-fixed" class="alpha-fixed">
+            <li class="current-alpha" id="A">A</li>
+            <li id="B">B</li>
+            <li id="C">C</li>
+            <li id="D">D</li>
+            <li id="E">E</li>
+            <li id="F">F</li>
+            <li id="G">G</li>
+            <li id="H">H</li>
+            <li id="I">I</li>
+            <li id="J">J</li>
+            <li id="K">K</li>
+            <li id="L">L</li>
+            <li id="M">M</li>
+            <li id="N">N</li>
+            <li id="O">O</li>
+            <li id="P">P</li>
+            <li id="Q">Q</li>
+            <li id="R">R</li>
+            <li id="S">S</li>
+            <li id="T">T</li>
+            <li id="U">U</li>
+            <li id="V">V</li>
+            <li id="W">W</li>
+            <li id="X">X</li>
+            <li id="Y">Y</li>
+            <li id="Z">Z</li>
+        </ul>
+    </li>
+    <li class="title-alphabet"><h1 id="F-A">A</h1></li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li class="title-alphabet"><h1 id="F-B">B</h1></li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li class="title-alphabet"><h1 id="F-C">C</h1></li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+    <li>
+        <a href="#panel-fixed-page2">
+            <span style="float: left">ALFIORALDO</span>
+                    <span style="float: right">
+                        <img src="assets/images/icon-timer.png">
+                        24 Hari
+                    </span>
+        </a>
+    </li>
+</ul>
+
+</div>
+<div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" data-theme="a"
+     class="panel-menu-left" id="customer-account" style="width: 100%;margin-top:58px;"><!--top:6.8%;-->
+    <h1>ACCOUNT</h1>
+
+    <div style="height: 70px;margin-top: 19px;padding:0 15px;">
+        <div class="button-customer-account btn-accn active">LOG IN</div>
+        <div class="button-customer-register btn-accn">REGISTER</div>
+    </div>
+    <div style="clear: both;"></div>
+    <ul data-role="listview" class="menu-left-account">
+        <li><a href="#panel-fixed-page2">PESANAN SAYA</a></li>
+        <li><a href="#panel-fixed-page2">BUKU ALAMAT</a></li>
+        <li><a href="#panel-fixed-page2">INFORMASI AKUN</a></li>
+        <li><a href="#panel-fixed-page2">FAQ</a></li>
+        <li><a href="#panel-fixed-page2">CARA PEMESANAN</a></li>
+        <li><a href="#panel-fixed-page2">PANDUAN UKURAN</a></li>
+        <li><a href="#panel-fixed-page2">TENTANG PERUSAHAAN</a></li>
+        <li><a href="#panel-fixed-page2">HUBUNGI KAMI</a></li>
+        <li><a href="#panel-fixed-page2">PESANAN SAYA</a></li>
+        <li><a href="#panel-fixed-page2">BUKU ALAMAT</a></li>
+        <li><a href="#panel-fixed-page2">INFORMASI AKUN</a></li>
+        <li><a href="#panel-fixed-page2">FAQ</a></li>
+        <li><a href="#panel-fixed-page2">CARA PEMESANAN</a></li>
+        <li><a href="#panel-fixed-page2">PANDUAN UKURAN</a></li>
+        <li><a href="#panel-fixed-page2">TENTANG PERUSAHAAN</a></li>
+        <li><a href="#panel-fixed-page2">HUBUNGI KAMI</a></li>
+    </ul>
+</div>
+<!--</div>-->
+<!-- /page -->
+<!--<script src="http://www.slidesjs.com/examples/standard/js/jquery.slides.min.js"></script>-->
+<script src="swipe/swipe.js"></script>
+<script src="assets/js/common.js"></script>
+<!--<script src="assets/nivoslide/js/nivo-lightbox.js"></script>-->
+<script>
+    $(document).ready(function(){
+        //$(window).resize({'width':'100px'});
+        //setup();
+    });
+    /*$(function () {
+     $('#pdp-image-slider').slidesjs({
+     width: 940,
+     height: 528,
+     navigation: false,
+     pagination:false
+     });
+     });*/
+    // pure JS
+    var elem = document.getElementById('mySwipe');
+    window.mySwipe = Swipe(elem, {
+        // startSlide: 4,
+        // auto: 3000,
+        // continuous: true,
+        // disableScroll: true,
+        // stopPropagation: true,
+        // callback: function(index, element) {},
+        // transitionEnd: function(index, element) {}
+    });
+
+    // with jQuery
+    // window.mySwipe = $('#mySwipe').Swipe().data('Swipe');
+
+</script>
+</body>
+</html>
