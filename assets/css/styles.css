@@ -622,63 +622,6 @@ body{
 }
 /*/breadcrumb*/
 
-/*menu customer account*/
-.button-customer-account,.button-customer-register{
-    width: 47%;
-    height: 35px;
-    font-size: 11px;
-    text-align: center;
-    padding-top: 13px;
-    background: #4d4d4b;
-    letter-spacing: 2px;
-    border:solid 1px #FFFFFF;
-    cursor: pointer;
-    color:#FFFFFF;
-}
-.button-customer-account{
-    /*color:#FFFFF;*/
-    float:left;
-}
-.button-customer-register{
-    float: right;
-    /*color:#000000;*/
-}
-.btn-accn:hover{
-    background: #c19703;
-    color:#000000;
-    border:none;
-}
-.btn-accn.active{
-    background: #c19703;
-    color:#000000;
-    border:none;
-}
-.panel-menu-left{
-    /*background: #FFFFFF;*/
-    background: #4d4d4b;;
-}
-.panel-menu-left h1{
-    color:#000000;
-    background: #FFFFFF;
-    text-align: center;
-    height: 50px;
-    padding-top: 17px;
-}
-.panel-menu-left .menu-left-account{
-    padding: 0 15px;
-}
-.panel-menu-left .menu-left-account{
-    background: #FFFFFF;
-}
-.panel-menu-left .menu-left-account li{
-    border: none;
-}
-.panel-menu-left .menu-left-account ul li input[type=text]{
-    border:none;
-}
-/*/menu customer account*/
-
-
 /*product detail*/
 .product-detail{
     height: auto;
