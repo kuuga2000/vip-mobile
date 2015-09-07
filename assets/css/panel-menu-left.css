@@ -1,0 +1,119 @@
+/* menu customer account */
+
+.button-customer-container{
+    margin: 0 -1em;
+    padding: 1em;
+    background: #4d4d4b;
+}
+.button-customer-account,.button-customer-register{
+    width: 47%;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 0;
+    background: #4d4d4b;
+    letter-spacing: 2px;
+    border:solid 1px #FFFFFF;
+    cursor: pointer;
+    color:#FFFFFF;
+}
+.button-customer-account{
+    /*color:#FFFFF;*/
+    float:left;
+}
+.button-customer-register{
+    float: right;
+    /*color:#000000;*/
+}
+.btn-accn:hover{
+    background: #c19703;
+    color:#000000;
+    border:none;
+}
+.btn-accn.active{
+    background: #c19703;
+    color:#000000;
+    border:none;
+}
+.panel-menu-left{
+    background: #FFFFFF;
+}
+.panel-menu-left h1{
+    color:#000000;
+    background: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+    padding: 10px 0;
+    margin: -1em -1em 0;
+}
+.panel-menu-left .menu-left-account{
+    background: #FFFFFF;
+    margin: 0 -1em -1em;
+}
+.panel-menu-left .menu-left-account li{
+    border: none;
+}
+.panel-menu-left .menu-left-account li a{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    background: none;
+    margin: 0;
+    position: relative;
+    padding: 15px 40px 15px 70px;
+    color: #666666;
+    font-weight: bold;
+}
+.panel-menu-left .menu-left-account li a:hover{
+    color: #666666;
+}
+.panel-menu-left .menu-left-account li .img-icon{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    left: 20px;
+    top: 5px;
+    background: url("../images/account-icons.png") no-repeat -3px -7px;
+}
+.panel-menu-left .menu-left-account li.address .img-icon{
+    background-position: -48px -5px;
+}
+.panel-menu-left .menu-left-account li.info .img-icon{
+    background-position: -93px -7px;
+}
+.panel-menu-left .menu-left-account li.help .img-icon{
+    background-position: -134px -7px;
+}
+.panel-menu-left .menu-left-account li.company .img-icon{
+    background-position: -177px -7px;
+}
+.panel-menu-left .menu-left-account li.toogle a.btn-toogle{
+    position: absolute;
+    display: block;
+    background: url("../images/toggle-button.png") no-repeat center;
+    left: auto;
+    right: 0;
+    top: 0;
+    height: 50px;
+    border: 0;
+}
+.panel-menu-left .menu-left-account li.subtoogle{
+    padding: 0;
+}
+.menu-left-account.ui-listview > li.ui-li-has-alt > a.ui-btn {
+    margin-right: 0;
+}
+.menu-left-account ul.submenu{
+    padding: 0;
+    list-style: none;
+}
+.menu-left-account ul.submenu li a{
+    border-top: 1px solid #dddddd;
+    font-weight: normal;
+    font-size: 15px;
+}
+.panel-menu-left .menu-left-account ul li input[type=text]{
+    border:none;
+}
+
+/*end of menu customer account */
