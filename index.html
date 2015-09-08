@@ -698,7 +698,10 @@
 <!-- /page -->
 <script src="assets/js/common.js"></script>
 <script>
-
+jQuery(".subtoogle").hide();
+jQuery(".toogle").click(function() {
+    jQuery(this).next(".subtoogle").toggle("slow");
+});
 </script>
 </body>
 </html>
