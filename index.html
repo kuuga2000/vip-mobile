@@ -12,6 +12,7 @@
     <!--/jMobile-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/panel-menu-left.css" type="text/css">
     <link rel="stylesheet" href="assets/bxslider/jquery.bxslider.css" type="text/css">
     <script src="assets/bxslider/jquery.bxslider.min.js"></script>
     <style>
@@ -53,7 +54,7 @@
             </a>
         </div>
         <div class="logo-vipm">
-            <a href="index.html">
+            <a href="index.html" data-ajax="false">
                 <img src="assets/images/vip-logom.png">
             </a>
         </div>
@@ -662,28 +663,33 @@
 <div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" data-theme="a"
      class="panel-menu-left" id="customer-account" style="width: 100%;margin-top:58px;"><!--top:6.8%;-->
     <h1>ACCOUNT</h1>
-    <div style="height: 70px;margin-top: 19px;/*padding:0 15px;*/">
+    <div class="button-customer-container">
         <div class="button-customer-account btn-accn active">LOG IN</div>
         <div class="button-customer-register btn-accn">REGISTER</div>
+        <div class="clear"></div>
     </div>
-    <div style="clear: both;"></div>
     <ul data-role="listview" class="menu-left-account">
-        <li><a href="#panel-fixed-page2">PESANAN SAYA</a></li>
-        <li><a href="#panel-fixed-page2">BUKU ALAMAT</a></li>
-        <li><a href="#panel-fixed-page2">INFORMASI AKUN</a></li>
-        <li><a href="#panel-fixed-page2">FAQ</a></li>
-        <li><a href="#panel-fixed-page2">CARA PEMESANAN</a></li>
-        <li><a href="#panel-fixed-page2">PANDUAN UKURAN</a></li>
-        <li><a href="#panel-fixed-page2">TENTANG PERUSAHAAN</a></li>
-        <li><a href="#panel-fixed-page2">HUBUNGI KAMI</a></li>
-        <li><a href="#panel-fixed-page2">PESANAN SAYA</a></li>
-        <li><a href="#panel-fixed-page2">BUKU ALAMAT</a></li>
-        <li><a href="#panel-fixed-page2">INFORMASI AKUN</a></li>
-        <li><a href="#panel-fixed-page2">FAQ</a></li>
-        <li><a href="#panel-fixed-page2">CARA PEMESANAN</a></li>
-        <li><a href="#panel-fixed-page2">PANDUAN UKURAN</a></li>
-        <li><a href="#panel-fixed-page2">TENTANG PERUSAHAAN</a></li>
-        <li><a href="#panel-fixed-page2">HUBUNGI KAMI</a></li>
+        <li class="order"><a href="#panel-fixed-page2"><span class="img-icon"></span>PESANAN SAYA</a></li>
+        <li class="address"><a href="#panel-fixed-page2"><span class="img-icon"></span>BUKU ALAMAT</a></li>
+        <li class="info"><a href="#panel-fixed-page2"><span class="img-icon"></span>INFORMASI AKUN</a></li>
+        <li class="toogle help"><a href="#panel-fixed-page2"><span class="img-icon"></span>BANTUAN</a><a href="" class="btn-toogle"></a></li>
+        <li class="subtoogle">
+            <ul class="submenu">
+                <li><a href="#panel-fixed-page2">FAQ</a></li>
+                <li><a href="#panel-fixed-page2">Cara Pemesanan</a></li>
+                <li><a href="#panel-fixed-page2">Panduan Ukuran</a></li>
+                <li><a href="#panel-fixed-page2">Pengembalian</a></li>
+                <li><a href="#panel-fixed-page2">Kebijakan</a></li>
+                <li><a href="#panel-fixed-page2">Syarat &amp; Ketentuan</a></li>
+            </ul>
+        </li>
+        <li class="toogle company"><a href="#panel-fixed-page2"><span class="img-icon"></span>PERUSAHAAN</a><a href="" class="btn-toogle"></a></li>
+        <li class="subtoogle">
+            <ul class="submenu">
+                <li><a href="#panel-fixed-page2">Tentang Perusahaan</a></li>
+                <li><a href="#panel-fixed-page2">Hubungi Kami</a></li>
+            </ul>
+        </li>
     </ul>
 </div>
 <!--</div>-->
@@ -691,5 +697,11 @@
 
 <!-- /page -->
 <script src="assets/js/common.js"></script>
+<script>
+jQuery(".subtoogle").hide();
+jQuery(".toogle").click(function() {
+    jQuery(this).next(".subtoogle").toggle("slow");
+});
+</script>
 </body>
 </html>
