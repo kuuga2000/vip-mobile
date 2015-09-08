@@ -48,6 +48,7 @@
 }
 .panel-menu-left .menu-left-account{
     background: #FFFFFF;
+    border-bottom: 1px solid #dddddd;
     margin: 0 -1em -1em;
 }
 .panel-menu-left .menu-left-account li{
