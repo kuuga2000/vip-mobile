@@ -33,7 +33,7 @@
 .btn-accn.active{
     background: #c19703;
     color:#000000;
-    border:none;
+    border:1px solid #c19703;
 }
 .panel-menu-left{
     background: #FFFFFF;
